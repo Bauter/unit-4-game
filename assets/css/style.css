@@ -1,0 +1,29 @@
+body {
+    background-image: url(../images/crystalBG.jpg);
+}
+
+#rainbow {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, orange, yellow, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 60px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+.jumbotron {
+    margin-left: 5%!important;
+    margin-right: 5%!important;
+    overflow: auto;
+}
+
+#rules {
+    font-family: 'Long Cang', cursive;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#random-number {
+    font-family: 'Turret Road', cursive;
+    font-weight: 800;
+}

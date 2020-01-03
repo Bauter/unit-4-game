@@ -9,7 +9,7 @@
         
         <title>Crystal Collector</title>
         
-
+        <link href="https://fonts.googleapis.com/css?family=Long+Cang|Press+Start+2P|Turret+Road&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css"></link>
 
@@ -25,38 +25,39 @@
     <body>
 
         <div class="jumbotron">
-            <h1 class="display-4">Crystal Collector</h1>
+            <h1 id="rainbow" class="display-4">Crystal Collector</h1>
             <br>
             <p id="rules" class="lead">A simple game, dare to play? you must click on the crystals to try and match the number</p>
             <hr class="my-4">
             <!--DOM manipulation divs-->
-                <p id="random-number"></p>
+                <div id="random-number">
+                </div>
             <br>
-                <div id="userScore">
-                    <p id="user-total"></p>
+                <div id="result">    
+                </div>
+            <br>
+                <div id="user-score">
                 </div>
             <br>
                 <div id="wins">
-                    <p id="win-counter"></p>
                 </div>
             <br>
                 <div id="losses">
-                    <p id="losses-counter"></p>
                 </div>
                 <!--Images-->
-                <div class="card float-left" style="width: 10rem;">
+                <div class="card float-left" style="width: 25%;">
                     <img id="crystal-one" src="assets/images/2.png" class="card-img-top" alt="crystal-one">    
                 </div>
 
-                <div class="card float-left" style="width: 10rem;">
+                <div class="card float-left" style="width: 25%;">
                     <img id="crystal-two" src="assets/images/3.png" class="card-img-top" alt="crystal-two">    
                 </div>
 
-                <div class="card float-left" style="width: 10rem;">
+                <div class="card float-left" style="width: 25%;">
                     <img id="crystal-three" src="assets/images/5.png" class="card-img-top" alt="crystal-three">    
                 </div>
 
-                <div class="card float-left" style="width: 10rem;">
+                <div class="card float-left" style="width: 25%;">
                     <img id="crystal-four" src="assets/images/6.png" class="card-img-top" alt="crystal-four">    
                 </div>
 
