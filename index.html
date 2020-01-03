@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <title>Crystal Collector</title>
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css"></link>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/javascript/game.js"></script>
+
+        
+
+    </head>
+
+    <!--Crystal collector game using Jquery for logic and css &/or bootstrap for styling-->
+
+    <body>
+
+        <div class="jumbotron">
+            <h1 class="display-4">Crystal Collector</h1>
+            <br>
+            <p id="rules" class="lead">A simple game, dare to play? you must click on the crystals to try and match the number</p>
+            <hr class="my-4">
+            <!--DOM manipulation divs-->
+                <p id="random-number"></p>
+            <br>
+                <div id="userScore">
+                    <p id="user-total"></p>
+                </div>
+            <br>
+                <div id="wins">
+                    <p id="win-counter"></p>
+                </div>
+            <br>
+                <div id="losses">
+                    <p id="losses-counter"></p>
+                </div>
+                <!--Images-->
+                <div class="card float-left" style="width: 10rem;">
+                    <img id="crystal-one" src="assets/images/2.png" class="card-img-top" alt="crystal-one">    
+                </div>
+
+                <div class="card float-left" style="width: 10rem;">
+                    <img id="crystal-two" src="assets/images/3.png" class="card-img-top" alt="crystal-two">    
+                </div>
+
+                <div class="card float-left" style="width: 10rem;">
+                    <img id="crystal-three" src="assets/images/5.png" class="card-img-top" alt="crystal-three">    
+                </div>
+
+                <div class="card float-left" style="width: 10rem;">
+                    <img id="crystal-four" src="assets/images/6.png" class="card-img-top" alt="crystal-four">    
+                </div>
+
+          </div>
+
+ 
+
+
+
+    
+    </body>
+
+</html>
