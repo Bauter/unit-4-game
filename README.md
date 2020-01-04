@@ -24,13 +24,13 @@ Initially this project was designed for my "Web-dev coding boot-camp" as an entr
 
 -assets folder created to hold CSS code and an image directory used to hold games images. 
 
--Javascript file was created to write the logic for the game using jquery library. creating functions to:
-    1. Log and score user crystal click via onClick() function
-    2. Generating a random computer number between 19 - 120 using [let randomNum = Math.floor(Math.random() * (max - min + 1)) + min;].
-    3. Generating 4 random numbers between 1 - 12 for each crystal image using [Math.floor((Math.random() * 12) + 1);].
-    4. Conditional else if statement was written inside resultCheck() function used to compare user score to computer random number, based on the condition either the player wins, a wins counter is scored, win result displayed to the DOM, and  game reset. Or the player loses, and losses counter is scored and the game resets
-    5.Reset() function created resetting user score, reassigning crystal image values to new numbers, calling generate() function to generate a new computer random number, and calling resultClear() function to clear 'result' div win/lose text.
-    6. DOM manipulation is then used to write the text strings and scores to individual divs inside the jumbotron container via .text jquery methods.
+-Javascript file was created to write the logic for the game using jquery library. creating functions to: <br>
+    1. Log and score user crystal click via onClick() function <br>
+    2. Generating a random computer number between 19 - 120 using [let randomNum = Math.floor(Math.random() * (max - min + 1)) + min;]. <br>
+    3. Generating 4 random numbers between 1 - 12 for each crystal image using [Math.floor((Math.random() * 12) + 1);]. <br>
+    4. Conditional else if statement was written inside resultCheck() function used to compare user score to computer random number, based on the condition either the player wins, a wins counter is scored, win result displayed to the DOM, and  game reset. Or the player loses, and losses counter is scored and the game resets. <br>
+    5.Reset() function created resetting user score, reassigning crystal image values to new numbers, calling generate() function to generate a new computer random number, and calling resultClear() function to clear 'result' div win/lose text. <br>
+    6. DOM manipulation is then used to write the text strings and scores to individual divs inside the jumbotron container via .text jquery methods. <br><br>
 
     *NOTE - resultClear() function has proved to be problematic, purpose was to avoid using an alert function and instead add additional DOM manipulation. resultClear() can be removed to display win/lose result, however result won't clear out in new game until another win or loss happens. With resultClear function called, initial result div text "You WON!/You LOST!" wont display. setTimeout(), .remove, .clear, .empty, .text methods all attempted to resolve said problem to no avail. alert function already written has been commented out for the time being
 
