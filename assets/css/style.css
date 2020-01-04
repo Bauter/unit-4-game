@@ -1,6 +1,21 @@
 body {
-    background-image: url(../images/crystalBG.jpg);
+    background-image: url(../images/crystalBG.jpg) ;
+    width: 100%;
 }
+
+footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: white;
+    opacity: 40%;
+}
+
+span {
+    color: magenta;
+    font-weight: 700;
+}
+
 
 #rainbow {
     background-image: linear-gradient(to left, violet, indigo, blue, green, orange, yellow, red);
@@ -11,10 +26,14 @@ body {
     text-align: center;
 }
 
-.jumbotron {
+ .jumbotron {
+     width:80%;
+    margin-top: 5%;
     margin-left: 5%!important;
     margin-right: 5%!important;
     overflow: auto;
+    opacity: 89%;
+    border-style: ridge;
 }
 
 #rules {
@@ -27,3 +46,22 @@ body {
     font-family: 'Turret Road', cursive;
     font-weight: 800;
 }
+
+#wins {
+    font-family: 'Turret Road', cursive;
+    color: blue;
+    font-size: 20px;
+}
+
+#losses {
+    font-family: 'Turret Road', cursive;
+    color: red;
+    font-size: 20px;
+}
+
+#user-score {
+    font-family: 'Long Cang', cursive;
+    color: green;
+    font-size: 30px;
+}
+
