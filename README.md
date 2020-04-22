@@ -17,6 +17,8 @@ Initially this project was designed for my "Web-dev coding boot-camp" as an entr
 
 https://bauter.github.io/unit-4-game/
 
+![crystalCollector-app](crystalCollector.gif)
+
 ## How was this project created? ##
 
 ##### Coding  #####
